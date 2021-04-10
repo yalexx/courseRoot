@@ -78,9 +78,15 @@ def goto(targetLocation):
 ##########MAIN EXECUTABLE###########
 
 wp1 = LocationGlobalRelative(44.50202,-88.060316,10)
+wp2 = LocationGlobalRelative(44.50302,-88.060416,10)
+wp3 = LocationGlobalRelative(44.50402,-88.060516,10)
+wp4 = LocationGlobalRelative(44.50502,-88.060616,10)
 
 vehicle = connectMyCopter()
 arm_and_takeoff(10)
 
 goto(wp1)
+goto(wp2)
+goto(wp3)
+goto(wp4)
 
