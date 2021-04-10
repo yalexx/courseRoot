@@ -41,4 +41,7 @@ setyaw 30 5 1
 
 # install dronekit
 sudo -H pip install dronekit
+sudo -H pip install dronekit-sitl
 
+# check install
+pip freeze | grep dronekit
